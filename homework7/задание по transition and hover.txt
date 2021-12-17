@@ -1,0 +1,4 @@
+Сделать 1-7 задание и 9 задание 
+(по свойству transition на hover)
+
+http://old.code.mu/tasks/css/rabota-s-plavnymi-perehodami-transition-na-css.html
