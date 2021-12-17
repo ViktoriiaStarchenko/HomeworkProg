@@ -1,0 +1,68 @@
+.main {
+    border: 1px solid rgb(61, 131, 236);
+    width: 550px;
+    height: 300px;
+    padding: 10px 20px 10px 10px;
+}
+.userName {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 62px;
+}
+.userEmail {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 52px;
+}
+.userEmail-Title {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+.userEmail-Text {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 75px;
+}
+input {
+    border: 1px solid rgb(61, 131, 236);
+    width: 190px;
+    height: 19px;
+    margin-left: 12px;
+}
+select {
+    border: 1px solid rgb(61, 131, 236);
+    width: 195px;
+    height: 23px;
+    margin-left: 12px;
+}
+textarea {
+    border: 1px solid rgb(61, 131, 236);
+    width: 400px;
+    height: 100px;
+    resize: none;
+    margin-left: 12px;
+}
+.security {
+    display: flex;
+    margin-bottom: 10px;
+}
+.security input {
+    border: 1px solid rgb(61, 131, 236);
+    width: 70px;
+    height: 19px;
+    margin: 0 15px 0 12px;
+}
+.security img {
+    border: 1px solid rgb(61, 131, 236);
+}
+.security span {
+    text-decoration: underline;
+}
+input[type=submit] {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 85px;
+    margin-bottom: 10px;
+    margin-left: 135px;
+}

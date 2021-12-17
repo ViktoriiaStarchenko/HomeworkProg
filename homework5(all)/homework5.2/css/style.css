@@ -1,0 +1,25 @@
+.main {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
+input {
+    height: 35px;
+    margin: 5px 0 13px 0;
+    padding-left: 10px;
+    border: 1px solid rgb(153, 151, 151);
+    border-radius: 4px;
+}
+#submit {
+    border-radius: 5px;
+    border: 1px solid rgb(4, 33, 128);
+    background-color: rgb(69, 98, 194);
+    color: #ffffff;
+    font-weight: 700;
+    height: 40px;
+    width: 150px;
+    padding-left: 0;
+}

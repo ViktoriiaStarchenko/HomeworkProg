@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 5.1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <form>
+            <div class="userName">
+                Твое имя
+                <input type="text" name="userName">
+            </div>
+
+            <div class="userEmail">
+                Твой email
+                <input type="email" name="userEmail">
+            </div>
+
+            <div class="userEmail-Title">
+                Тема сообщения
+                <select name="userEmail-Title"></select>
+            </div>
+
+            <div class="userEmail-Text">
+                Текст *
+                <textarea name="userEmail-Text" cols="30" rows="10"></textarea>
+            </div>
+
+           <div class="security">
+               Защита от спама *
+               <input type="text">
+               <img src="img/captcha.png" alt="captcha loading" width="150px" height="50px">
+               <span>сменить картинку</span>
+           </div>
+ 
+           <input type="submit" value="отправить">
+        </form>
+    </div>
+</body>
+</html>

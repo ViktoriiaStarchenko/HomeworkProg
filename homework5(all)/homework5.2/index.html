@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Homework 5.2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+ <!-- Вопросы преподавателю 
+    1. Кнопка input type="submit" не кликабельна в браузере. Почему это может быть? 
+    2. Сравнение паролей во время их набора пользователем можно сделать только с помощью JS? Или есть какой-то отдельный HTML/CSS инструмент/атрибут/свойство для этого? 
+    3. input type="email" в браузере Chrome никак не подсвечивает, если ввести другой формат текста, не почтовый. У вас так же?
+-->
+<body>
+    <div class="main">
+        <h1>Sign up</h1>
+        Name
+        <input type="text" name="userName" placeholder="Michael Hartl">
+
+        Email
+        <input type="email" name="userEmail" placeholder="mhartl@example.com">
+
+        Password
+        <input type="password" name="userPass" value="123456">
+
+        Confirmation
+        <input type="password" name="userPassConfirm" value="123456">
+
+        <input type="submit" id="submit" value="Сreate my account">
+    </div>
+</body>
+</html>
