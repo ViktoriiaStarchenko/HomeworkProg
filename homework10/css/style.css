@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.grid1, .grid2, .grid3, .grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25vh 25vh 25vh 25vh;
+}
+.grid1 div, .grid2 div, .grid3 div, .grid4 div {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    position: relative;
+}
+.plus {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: -11px;
+    left: -6px;
+    z-index: 2;
+}
+.menu {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 55px;
+}
+.text_udc {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    left: 62px;
+    top: 35px;
+}
+.div_number {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+.grid1 div:nth-child(1),
+.grid2 div:nth-child(1),
+.grid3 div:nth-child(1),
+.grid4 div:nth-child(1),
+.grid1 div:nth-child(6),
+.grid2 div:nth-child(6),
+.grid3 div:nth-child(6),
+.grid4 div:nth-child(6),
+.grid1 div:nth-child(12), 
+.grid1 div:nth-child(22),
+.grid2 div:nth-child(7),
+.grid2 div:nth-child(8)
+.grid2 div:nth-child(13) {
+    position: relative;
+}
+
+
+.grid1 {
+    background: url(../img/bg1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.grid1 div:nth-child(6) {
+    background: rgb(163, 28, 28);
+}
+.grid1 div:nth-child(2) {
+    grid-row: 1/4;
+    grid-column: 2/3;
+    background: rgb(163, 28, 28);
+}
+.cloud {
+    font-size: 107px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    left: 78px;
+    top: -13px;
+}
+.zeroOne {
+    font-size: 100px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    left: 60px;
+    top: -10px;
+}
+
+
+.grid2 {
+    background: url(../img/bg2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.grid2 div:nth-child(6) {
+    background: rgb(163, 28, 28);
+}
+.grid2 div:nth-child(8) {
+    grid-row: 2/4;
+    grid-column: 2/6;
+    background: rgb(163, 28, 28);
+}
+.team {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    left: 134px;
+    top: 86px;
+    z-index: 2;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+.grid2 div p {
+    width: 70%;
+    font-size: 14px;
+    position: absolute;
+    right: 42px;
+    top: 90px;
+}
+.date_and_month {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: -80px;
+    left: -37px;
+}
+.date {
+    font-size: 100px;
+    font-weight: 500;
+}
+.arrows {
+    color: rgb(245, 245, 245, 0.6);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    right: 65px;
+    top: -60px;
+}
+
+
+.grid3 {
+    background: rgb(71, 71, 71);
+}
+.grid3 div:nth-child(6) {
+    background: rgb(163, 28, 28);
+}
+.grid3 div:nth-child(8), 
+.grid3 div:nth-child(10), 
+.grid3 div:nth-child(13), 
+.grid3 div:nth-child(15),
+.grid3 div:nth-child(17), 
+.grid3 div:nth-child(20),
+.grid3 div:nth-child(22), 
+.grid3 div:nth-child(24) {
+    background: rgb(87, 87, 87);
+}
+
+
+.grid4 {
+    background: url(../img/bg3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.grid4 div:nth-child(6) {
+    background: rgb(163, 28, 28);
+}
+.grid4 div:nth-child(10) {
+    grid-row: 2/4;
+    grid-column: 4/6;
+    background: rgb(163, 28, 28);
+}
+form {
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+form h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+.formName, .formTelEmail {
+    display: flex;
+    /* border: transparent; */
+}
+form input {
+    color: white;
+    background: rgb(163, 28, 28);
+    border-bottom: 1px solid white;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    margin-left: 30px;
+}
+form input::-webkit-input-placeholder {
+    color: white;
+}
+form #btn {
+    width: 30%;
+    border: 1px solid white;
+    padding: 4px 0;
+    align-self: flex-end;
+}
